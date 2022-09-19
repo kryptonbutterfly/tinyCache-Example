@@ -39,4 +39,4 @@ invocations 11
 ```
 
 In this example the @Cache annotation causes the function ```int fibonacci(int n)``` to be wrapped in a FIFO cache with capacity 2, avoiding recomputation of already computed values.
-This reduces the invocation count for a given n ∊ ℕ from ≈2^n to ≈n
+This reduces the invocation count for a given n ∊ ℕ from ≈2<sup>n</sup> to ≈n
