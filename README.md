@@ -12,10 +12,10 @@ bytecode manipulator | [CacheBuilder](https://github.com/tinycodecrank/CacheBuil
 ## Example
 
 ```java
-int invocations = 0;
+static int invocations = 0;
 
 @Cache(cache = FIFOCache.class, capacity = 2)
-public int fibonacci(int n)
+public static int fibonacci(int n)
 {
   invocations++;
   if (n == 0 || n == 1)
